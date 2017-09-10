@@ -24,6 +24,9 @@ public class AdminTristan extends AppCompatActivity{
 
         final TextView nowShowing = (TextView)findViewById(R.id.ta_now_showing);
 
+        LinearLayout toInsert = new LinearLayout(this);
+        toInsert.setOrientation(LinearLayout.VERTICAL);
+
         for(int i = 1; i <= 10; i++){
 
             LinearLayout layout = new LinearLayout(this);
@@ -51,9 +54,15 @@ public class AdminTristan extends AppCompatActivity{
                 }
             });
 
-            itemList.addView(layout);
+            toInsert.addView(layout);
+            //itemList.addView(layout);
 
         }
+
+        itemList.addView(toInsert);
+
+        toInsert = new LinearLayout(this);
+        toInsert.setOrientation(LinearLayout.VERTICAL);
 
         for(int j = 1; j <= 5; j++){
             LinearLayout layout = new LinearLayout(this);
@@ -72,9 +81,12 @@ public class AdminTristan extends AppCompatActivity{
             layout.addView(textView);
             layout.addView(textView1);
 
-            tourList.addView(layout);
+            //tourList.addView(layout);
+            toInsert.addView(layout);
 
         }
+
+        tourList.addView(toInsert);
 
 
     }

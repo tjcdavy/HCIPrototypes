@@ -23,6 +23,8 @@
         <activity android:name=".AdminJohn"
             android:screenOrientation="landscape"/>
 
+        <activity android:name=".ItemInfo"
+            android:screenOrientation="landscape"/>
 
     </application>
 
