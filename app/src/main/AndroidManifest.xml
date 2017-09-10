@@ -17,6 +17,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".AdminTristan"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".AdminJohn"
+            android:screenOrientation="landscape"/>
+
 
     </application>
 

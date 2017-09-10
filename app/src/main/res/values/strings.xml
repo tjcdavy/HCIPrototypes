@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">HCI Prototypes</string>
 
+    <!--Activity Main-->
     <string name="attraction1_text">This is the first attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
-    <string name="map_spiel">If you are lost or don't know where to go, here is a map.</string>
+    <string name="attraction2_text">This is the second attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
+    <string name="attraction3_text">This is the third attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
+    <string name="map_spiel">If you are lost or don\'t know where to go, here is a map.</string>
+
+    <!--Tristan Admin-->
+    <string name="current">Currently Showing:</string>
+    <string name="tour_members">Tour Members:</string>
 
 </resources>
