@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HCI Prototypes</string>
+
+    <string name="attraction1_text">This is the first attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
+    <string name="map_spiel">If you are lost or don't know where to go, here is a map.</string>
+
+</resources>
