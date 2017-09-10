@@ -19,7 +19,8 @@ public class AdminTristan extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.admin_tristan);
 
-        ScrollView scroller = (ScrollView)findViewById(R.id.ta_user_list);
+        ScrollView itemList = (ScrollView)findViewById(R.id.ta_item_list);
+        ScrollView tourList = (ScrollView)findViewById(R.id.ta_tour_members);
 
         final TextView nowShowing = (TextView)findViewById(R.id.ta_now_showing);
 
@@ -50,7 +51,28 @@ public class AdminTristan extends AppCompatActivity{
                 }
             });
 
-            scroller.addView(layout);
+            itemList.addView(layout);
+
+        }
+
+        for(int j = 1; j <= 5; j++){
+            LinearLayout layout = new LinearLayout(this);
+            layout.setOrientation(LinearLayout.HORIZONTAL);
+            layout.setPadding(10,10,10,10);
+
+            TextView textView = new TextView(this);
+            textView.setText("Person " + j);
+            textView.setTextSize(20);
+            textView.setPadding(0,0,20,0);
+
+            TextView textView1 = new TextView(this);
+            textView1.setText(Math.pow(j,2) + "m >");
+            textView1.setTextSize(15);
+
+            layout.addView(textView);
+            layout.addView(textView1);
+
+            tourList.addView(layout);
 
         }
 
