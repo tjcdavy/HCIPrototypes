@@ -13,21 +13,21 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/ja_scroll_select"
-            android:visibility="visible"/>
+            android:id="@+id/jt_scroll_help"
+            android:visibility="gone"/>
 
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ja_map"
+            android:id="@+id/jt_map"
             android:visibility="gone"/>
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/ja_scroll_info"
-            android:visibility="gone">
+            android:id="@+id/jt_scroll_info"
+            android:visibility="visible">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -64,23 +64,23 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/select"
+            android:text="@string/help"
             android:layout_weight="1"
-            android:id="@+id/ja_select_button"/>
+            android:id="@+id/jt_help_button"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/map"
             android:layout_weight="1"
-            android:id="@+id/ja_map_button"/>
+            android:id="@+id/jt_map_button"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/info"
             android:layout_weight="1"
-            android:id="@+id/ja_info_button"/>
+            android:id="@+id/jt_info_button"/>
 
     </LinearLayout>
 

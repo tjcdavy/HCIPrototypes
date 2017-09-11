@@ -32,6 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/ta_now_showing"
+            android:text="None"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingBottom="50dp"/>
 
         <TextView

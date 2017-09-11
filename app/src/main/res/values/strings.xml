@@ -15,4 +15,10 @@
     <string name="heading">Item name</string>
     <string name="item_desc">This is some text to describe the item, but I cannot think of something that will be long enough for me to type here and make is coherent, so I will just copy and paste a whole bunch of words.\n\nWords.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.</string>
 
+    <!--John Labels-->
+    <string name="help">HELP</string>
+    <string name="map">MAP</string>
+    <string name="info">INFO</string>
+    <string name="select">SELECT</string>
+
 </resources>
