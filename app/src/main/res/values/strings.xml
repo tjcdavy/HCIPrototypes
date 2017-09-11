@@ -21,4 +21,15 @@
     <string name="info">INFO</string>
     <string name="select">SELECT</string>
 
+    <!--Popup labels-->
+    <string name="initial_text">Which designs do you want?</string>
+    <string name="tristan_uis">Tristan\'s</string>
+    <string name="john_uis">John\'s</string>
+    <string name="which_mode">Which mode would you like?</string>
+    <string name="john_admin">Admin</string>
+    <string name="john_tour">Tour Member</string>
+    <string name="tristan_admin">Admin</string>
+    <string name="tristan_tour">Tour Member</string>
+    <string name="tristan_solo">Self Guided</string>
+
 </resources>

@@ -11,7 +11,7 @@ import android.widget.ScrollView;
  * Created by Tristan on 11/09/2017.
  */
 
-public class TourJohn extends AppCompatActivity {
+public class TourJohn extends BaseAppActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

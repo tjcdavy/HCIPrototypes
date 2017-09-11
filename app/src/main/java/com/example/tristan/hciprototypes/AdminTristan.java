@@ -12,7 +12,7 @@ import android.widget.TextView;
  * Created by Tristan on 10/09/2017.
  */
 
-public class AdminTristan extends AppCompatActivity{
+public class AdminTristan extends BaseAppActivity{
 
     @Override
     public void onCreate(Bundle savedInstanceState){

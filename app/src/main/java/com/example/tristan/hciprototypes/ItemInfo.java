@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Tristan on 11/09/2017.
  */
 
-public class ItemInfo extends AppCompatActivity {
+public class ItemInfo extends BaseAppActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

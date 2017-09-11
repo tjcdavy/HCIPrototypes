@@ -14,7 +14,7 @@ import android.widget.TextView;
  * Created by Tristan on 10/09/2017.
  */
 
-public class AdminJohn extends AppCompatActivity {
+public class AdminJohn extends BaseAppActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
