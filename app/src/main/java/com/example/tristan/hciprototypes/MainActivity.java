@@ -30,7 +30,7 @@ public class MainActivity extends BaseAppActivity {
             }
         });
 
-        layout = (LinearLayout)findViewById(R.id.self3);
+        //layout = (LinearLayout)findViewById(R.id.self3);
         layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

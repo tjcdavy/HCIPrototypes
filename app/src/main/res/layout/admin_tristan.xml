@@ -16,16 +16,24 @@
     </ScrollView>
 
     <LinearLayout
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/stroke">
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="5"
+        android:paddingLeft="5dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/current"
-            android:textSize="20sp"
+            android:textSize="@dimen/standard_text"
             android:textStyle="bold"/>
 
         <TextView
@@ -33,14 +41,15 @@
             android:layout_height="wrap_content"
             android:id="@+id/ta_now_showing"
             android:text="None"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/standard_text"
+            android:paddingLeft="@dimen/activity_vertical_margin"
             android:paddingBottom="50dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tour_members"
-            android:textSize="20sp"
+            android:textSize="@dimen/standard_text"
             android:textStyle="bold"/>
 
         <ScrollView

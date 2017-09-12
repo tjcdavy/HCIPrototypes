@@ -33,6 +33,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
                 android:orientation="vertical">
 
                 <TextView
@@ -47,6 +50,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/standard_text"
                     android:text="@string/item_desc"/>
 
             </LinearLayout>
@@ -67,12 +71,14 @@
             android:layout_height="wrap_content"
             android:text="@string/select"
             android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"
             android:id="@+id/ja_select_button"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/map"
+            android:textSize="@dimen/button_text_size"
             android:layout_weight="1"
             android:id="@+id/ja_map_button"/>
 
@@ -80,6 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/info"
+            android:textSize="@dimen/button_text_size"
             android:layout_weight="1"
             android:id="@+id/ja_info_button"/>
 

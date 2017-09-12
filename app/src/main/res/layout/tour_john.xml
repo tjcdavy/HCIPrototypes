@@ -14,7 +14,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/jt_scroll_help"
-            android:visibility="gone"/>
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/help_text"
+                android:textSize="@dimen/standard_text"/>
+
+        </ScrollView>
 
 
         <ImageView
@@ -33,6 +44,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
                 android:orientation="vertical">
 
                 <TextView
@@ -47,6 +60,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/standard_text"
                     android:text="@string/item_desc"/>
 
             </LinearLayout>
@@ -66,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/help"
+            android:textSize="@dimen/button_text_size"
             android:layout_weight="1"
             android:id="@+id/jt_help_button"/>
 
@@ -73,6 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/map"
+            android:textSize="@dimen/button_text_size"
             android:layout_weight="1"
             android:id="@+id/jt_map_button"/>
 
@@ -80,6 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/info"
+            android:textSize="@dimen/button_text_size"
             android:layout_weight="1"
             android:id="@+id/jt_info_button"/>
 
