@@ -16,27 +16,36 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="300dp"
                 android:layout_height="match_parent"
-                android:id="@+id/self1">
+                android:id="@+id/self1"
+                android:orientation="vertical"
+                android:background="@drawable/border">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/skull"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
                     android:layout_gravity="center"/>
 
                 <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="@string/attraction1_text"
-                    android:paddingRight="@dimen/activity_horizontal_margin" />
+                    android:text="@string/attraction1_text" />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/more"/>
 
 
             </LinearLayout>
@@ -44,59 +53,77 @@
             <LinearLayout
                 android:layout_width="300dp"
                 android:layout_height="match_parent"
-                android:id="@+id/self2">
+                android:id="@+id/self2"
+                android:orientation="vertical"
+                android:background="@drawable/border">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/skull"
                     android:layout_gravity="center"/>
 
                 <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="@string/attraction2_text"
-                    android:paddingRight="@dimen/activity_horizontal_margin" />
+                    android:text="@string/attraction2_text" />
 
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/more"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="300dp"
                 android:layout_height="match_parent"
-                android:id="@+id/self3">
+                android:id="@+id/self3"
+                android:background="@drawable/border"
+                android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"/>
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/skull"/>
 
                 <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="@string/attraction3_text"
-                    android:paddingRight="@dimen/activity_horizontal_margin" />
+                    android:text="@string/attraction3_text" />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/more"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="300dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:id="@+id/self_map">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/map"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
                     android:layout_gravity="center"/>
 
                 <TextView
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textSize="20sp"
-                    android:text="@string/map_spiel"
-                    android:paddingRight="@dimen/activity_horizontal_margin" />
+                    android:text="@string/map_spiel" />
 
             </LinearLayout>
 

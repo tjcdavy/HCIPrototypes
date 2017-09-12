@@ -18,7 +18,7 @@ public class MainActivity extends BaseAppActivity {
         layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                nextThing();
+                nextThing(1);
             }
         });
 
@@ -26,7 +26,7 @@ public class MainActivity extends BaseAppActivity {
         layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                nextThing();
+                nextThing(1);
             }
         });
 
@@ -34,13 +34,32 @@ public class MainActivity extends BaseAppActivity {
         layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                nextThing();
+                nextThing(1);
+            }
+        });
+
+        layout = (LinearLayout)findViewById(R.id.self_map);
+        layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                nextThing(2);
             }
         });
     }
 
-    public void nextThing(){
-        Intent i = new Intent(this, ItemInfo.class);
-        startActivity(i);
+    public void nextThing(int i){
+        Intent intent;
+        switch(i){
+            case 1:
+                intent = new Intent(this, ItemInfo.class);
+                break;
+            case 2:
+                intent = new Intent(this, MapTristan.class);
+                break;
+            default:
+                intent = new Intent(this, ItemInfo.class);
+                break;
+        }
+        startActivity(intent);
     }
 }

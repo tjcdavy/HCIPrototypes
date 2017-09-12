@@ -9,7 +9,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:label="Self Guide">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,13 +19,24 @@
         </activity>
 
         <activity android:name=".AdminTristan"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape"
+            android:label="Admin"/>
 
         <activity android:name=".AdminJohn"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape"
+            android:label="Admin"/>
 
         <activity android:name=".ItemInfo"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape"
+            android:label="Tour Member"/>
+
+        <activity android:name=".TourJohn"
+            android:screenOrientation="landscape"
+            android:label="Tour Member"/>
+
+        <activity android:name=".MapTristan"
+            android:screenOrientation="landscape"
+            android:label="Map"/>
 
     </application>
 

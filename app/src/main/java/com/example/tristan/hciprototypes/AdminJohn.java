@@ -48,12 +48,7 @@ public class AdminJohn extends BaseAppActivity {
             layout.addView(textView);
             layout.addView(textView1);
 
-            layout.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    nowShowing.setText(textView.getText());
-                }
-            });
+
 
             toInsert.addView(layout);
             //itemList.addView(layout);

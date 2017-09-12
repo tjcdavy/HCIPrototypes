@@ -15,6 +15,8 @@ public class TourJohn extends BaseAppActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.tour_john);
 
         final ScrollView itemList = (ScrollView)findViewById(R.id.jt_scroll_help);
         final ImageView map = (ImageView)findViewById(R.id.jt_map);
