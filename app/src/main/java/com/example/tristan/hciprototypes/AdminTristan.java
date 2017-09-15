@@ -40,7 +40,7 @@ public class AdminTristan extends BaseAppActivity{
             textView.setPadding(0,0,20,0);
 
             TextView textView1 = new TextView(this);
-            textView1.setText("This is the description for whatever Item " + i + ".  Some more text.");
+            textView1.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
             textView1.setTypeface(null, Typeface.ITALIC);
             textView1.setTextSize(25);
 

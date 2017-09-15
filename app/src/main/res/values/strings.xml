@@ -2,8 +2,8 @@
     <string name="app_name">HCI Prototypes</string>
 
     <!--Activity Main-->
-    <string name="attraction1_text">This is the first attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
-    <string name="attraction2_text">This is the second attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
+    <string name="attraction1_text">This is the first attraction.  It is an exhibit that is very interesting.</string>
+    <string name="attraction2_text">This is the second attraction.  It is an exhibit that is very interesting.</string>
     <string name="attraction3_text">This is the third attraction.  Talking about it a lot is something that may or may not be difficult using the android String variable.</string>
     <string name="map_spiel">If you are lost or don\'t know where to go, press here to bring up a map.</string>
     <string name="more">\n\nPress here to find out more.</string>
@@ -13,8 +13,8 @@
     <string name="tour_members">Tour Members:</string>
 
     <!--Item Info-->
-    <string name="heading">Item name</string>
-    <string name="item_desc">This is some text to describe the item, but I cannot think of something that will be long enough for me to type here and make it coherent, so I will just copy and paste a whole bunch of words.\n\nWords.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.  Words.</string>
+    <string name="heading">Lorem Ipsum</string>
+    <string name="item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ante mi. Integer quis sagittis dui, quis interdum tortor. Praesent tincidunt vestibulum ullamcorper. Sed quis sodales felis, ut mollis est. Nunc ut viverra est, ac rutrum eros. Duis a turpis eget eros commodo hendrerit. Praesent hendrerit tincidunt molestie. Mauris porta ipsum eros, vitae feugiat dolor tincidunt ac. Duis et lacus et enim ultrices volutpat. Praesent nunc magna, dictum eu neque ut, finibus congue diam. Vivamus accumsan viverra sagittis. Nullam et metus in diam malesuada mattis.</string>
     <string name="help_text">This is some help text.  It will tell you all you need to know about the various things that you will need to know, and may also give you some ability to contact the tour guide if you get lost or have any other issues.</string>
 
     <!--John Labels-->

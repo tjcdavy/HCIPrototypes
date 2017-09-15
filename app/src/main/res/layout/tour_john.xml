@@ -19,11 +19,29 @@
             android:paddingTop="@dimen/activity_vertical_margin"
             android:visibility="gone">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/help_text"
-                android:textSize="@dimen/standard_text"/>
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Help"
+                    android:paddingBottom="20dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/help_text"
+                    android:textSize="@dimen/standard_text"/>
+
+            </LinearLayout>
+
+
 
         </ScrollView>
 
@@ -46,6 +64,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
                 android:orientation="vertical">
 
                 <TextView
