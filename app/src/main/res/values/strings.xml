@@ -15,7 +15,7 @@
     <!--Item Info-->
     <string name="heading">Lorem Ipsum</string>
     <string name="item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ante mi. Integer quis sagittis dui, quis interdum tortor. Praesent tincidunt vestibulum ullamcorper. Sed quis sodales felis, ut mollis est. Nunc ut viverra est, ac rutrum eros. Duis a turpis eget eros commodo hendrerit. Praesent hendrerit tincidunt molestie. Mauris porta ipsum eros, vitae feugiat dolor tincidunt ac. Duis et lacus et enim ultrices volutpat. Praesent nunc magna, dictum eu neque ut, finibus congue diam. Vivamus accumsan viverra sagittis. Nullam et metus in diam malesuada mattis.</string>
-    <string name="help_text">This is some help text.  It will tell you all you need to know about the various things that you will need to know, and may also give you some ability to contact the tour guide if you get lost or have any other issues.</string>
+    <string name="help_text">This is some help text.  It will tell you all you need to know about the various things that you will need to know, and may also give you some ability to contact the tour guide if you get lost or have any other issues.\n\n http://www.police.tas.gov.au/ \n 000 \n 131 444</string>
 
     <!--John Labels-->
     <string name="help">HELP</string>
