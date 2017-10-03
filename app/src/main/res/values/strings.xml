@@ -53,12 +53,12 @@
     </string-array>
 
     <string-array name="large_desc">
-        <item>The shrine of Andrew (Praise be upon him).</item>
-        <item>A fantasy land that few will ever get access to.</item>
-        <item>Where you will spend most of your uni career slowly dying.</item>
-        <item>The place that will never fucking work.</item>
-        <item>The only place of solace in this dark world.</item>
-        <item>I bet you can\'t even name anyone who has an office down here.</item>
+        <item>The help desk is where the technical staff in the building reside.  If someone has an issue, it is a good idea to pay them a visit to see if they can solve whatever the problem may be.</item>
+        <item>The HITLAB is a virtual reality development space.  It has many different tools for students to work with virtual reality projects, including at least one VIVE virtual reality headset.</item>
+        <item>This corridor holds the computer labs that the students use for their work.  These are a mix of Mac OS and Windows computers, used for different programs and classes.  At the end is the networks lab, which is only accessible by students doing networking related units (for example KIT201 and KIT304).</item>
+        <item>Most of the lectures for ICT, especially in second and third year, are located in this Video Conference room, often video linked to Hobart.  The CTS (Computing and Technology Society) hold some of their events in this room as well.</item>
+        <item>The Student lounge is somewhere that most undergraduate students will come in the breaks between their classes.  It is a social space for people to talk, work or play the boardgames on the shelf, provided by the CTS.</item>
+        <item>Those doing postgraduate study are given offices down this corridor.  This allows them to focus harder on their work, given their own working space, and reduced distractions from other students.</item>
     </string-array>
 
 </resources>
