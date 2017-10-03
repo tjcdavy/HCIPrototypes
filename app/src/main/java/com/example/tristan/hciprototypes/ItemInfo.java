@@ -2,6 +2,8 @@ package com.example.tristan.hciprototypes;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -25,6 +27,14 @@ public class ItemInfo extends BaseAppActivity {
 
         textView = (TextView)findViewById(R.id.info_text);
         textView.setText(desc[num]);
+
+        Button back = (Button)findViewById(R.id.back_button);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
     }
 }

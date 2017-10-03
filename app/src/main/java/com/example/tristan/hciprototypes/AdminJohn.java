@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 /**
  * Created by Tristan on 10/09/2017.
  */
@@ -27,28 +29,41 @@ public class AdminJohn extends BaseAppActivity {
         LinearLayout toInsert = new LinearLayout(this);
         toInsert.setOrientation(LinearLayout.VERTICAL);
 
-        for(int i = 1; i <= 10; i++){
+        final String[] names = getResources().getStringArray(R.array.names);
+        final String[] desc = getResources().getStringArray(R.array.small_desc);
+        final String[] longDesc = getResources().getStringArray(R.array.large_desc);
+
+        for(int i = 0; i < desc.length; i++){
 
             LinearLayout layout = new LinearLayout(this);
             layout.setOrientation(LinearLayout.HORIZONTAL);
             layout.setPadding(10,10,10,10);
 
             final TextView textView = new TextView(this);
-            textView.setText("Item " + i);
+            textView.setText(names[i]);
             textView.setTypeface(null, Typeface.BOLD);
             textView.setTextSize(30);
             textView.setPadding(0,0,20,0);
 
 
             TextView textView1 = new TextView(this);
-            textView1.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+            textView1.setText(desc[i]);
             textView1.setTypeface(null, Typeface.ITALIC);
             textView1.setTextSize(25);
 
             layout.addView(textView);
             layout.addView(textView1);
 
-
+            final int j = i;
+            layout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    TextView view = (TextView)findViewById(R.id.ja_info_title);
+                    view.setText(names[j]);
+                    view = (TextView)findViewById(R.id.ja_info_text);
+                    view.setText(longDesc[j]);
+                }
+            });
 
             toInsert.addView(layout);
             //itemList.addView(layout);

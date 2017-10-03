@@ -27,22 +27,25 @@ public class AdminTristan extends BaseAppActivity{
         LinearLayout toInsert = new LinearLayout(this);
         toInsert.setOrientation(LinearLayout.VERTICAL);
 
-        for(int i = 1; i <= 10; i++){
+        String[] names = getResources().getStringArray(R.array.names);
+        String[] desc = getResources().getStringArray(R.array.small_desc);
+
+        for(int i = 0; i < names.length; i++){
 
             LinearLayout layout = new LinearLayout(this);
             layout.setOrientation(LinearLayout.HORIZONTAL);
             layout.setPadding(10,10,10,10);
 
             final TextView textView = new TextView(this);
-            textView.setText("Item " + i);
+            textView.setText(names[i]);
             textView.setTypeface(null, Typeface.BOLD);
-            textView.setTextSize(30);
+            textView.setTextSize(25);
             textView.setPadding(0,0,20,0);
 
             TextView textView1 = new TextView(this);
-            textView1.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+            textView1.setText(desc[i]);
             textView1.setTypeface(null, Typeface.ITALIC);
-            textView1.setTextSize(25);
+            textView1.setTextSize(20);
 
             layout.addView(textView);
             layout.addView(textView1);
