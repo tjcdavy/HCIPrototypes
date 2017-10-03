@@ -21,61 +21,69 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/self1"
-                android:orientation="vertical"
-                android:background="@drawable/border">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/skull"
-                    android:adjustViewBounds="true"
-                    android:scaleType="fitCenter"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/standard_text"
-                    android:text="@string/attraction1_text" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/standard_text"
-                    android:text="@string/more"/>
-
+                android:orientation="horizontal"
+                android:id="@+id/scroll_insert">
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
-                android:id="@+id/self2"
-                android:orientation="vertical"
-                android:background="@drawable/border">
+            <!--<LinearLayout-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/self1"-->
+                <!--android:orientation="vertical"-->
+                <!--android:background="@drawable/border">-->
 
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/skull"
-                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/skull"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:layout_gravity="center"/>-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/standard_text"
-                    android:text="@string/attraction2_text" />
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="@dimen/standard_text"-->
+                    <!--android:text="@string/attraction1_text" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/standard_text"
-                    android:text="@string/more"/>
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="@dimen/standard_text"-->
+                    <!--android:text="@string/more"/>-->
 
-            </LinearLayout>
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/self2"-->
+                <!--android:orientation="vertical"-->
+                <!--android:background="@drawable/border">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/skull"-->
+                    <!--android:layout_gravity="center"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="@dimen/standard_text"-->
+                    <!--android:text="@string/attraction2_text" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="@dimen/standard_text"-->
+                    <!--android:text="@string/more"/>-->
+
+            <!--</LinearLayout>-->
 
             <!--<LinearLayout-->
                 <!--android:layout_width="300dp"-->

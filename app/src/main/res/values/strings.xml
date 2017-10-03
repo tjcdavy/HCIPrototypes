@@ -34,4 +34,31 @@
     <string name="tristan_tour">Tour Member</string>
     <string name="tristan_solo">Self Guided</string>
 
+    <string-array name="names">
+        <item>Help desk</item>
+        <item>HITLAB</item>
+        <item>Labs corridor</item>
+        <item>Video Conference Room</item>
+        <item>Student Lounge</item>
+        <item>Post Graduate offices</item>
+    </string-array>
+
+    <string-array name="small_desc">
+        <item>The help desk where students may go for more information</item>
+        <item>HITLAB - Human Interactive Technology Laboratory</item>
+        <item>The corridor where the computer labs are situated</item>
+        <item>The video conference room where most of the lectures at the university take place</item>
+        <item>The student lounge where many students gather</item>
+        <item>The corridor with the post graduate offices</item>
+    </string-array>
+
+    <string-array name="large_desc">
+        <item>The shrine of Andrew (Praise be upon him).</item>
+        <item>A fantasy land that few will ever get access to.</item>
+        <item>Where you will spend most of your uni career slowly dying.</item>
+        <item>The place that will never fucking work.</item>
+        <item>The only place of solace in this dark world.</item>
+        <item>I bet you can\'t even name anyone who has an office down here.</item>
+    </string-array>
+
 </resources>

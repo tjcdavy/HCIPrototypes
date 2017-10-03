@@ -17,6 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/info_title"
                 android:text="@string/heading"
                 android:paddingBottom="20dp"
                 android:textStyle="bold"
@@ -26,6 +27,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/info_text"
                 android:textSize="@dimen/standard_text"
                 android:text="@string/item_desc"/>
 

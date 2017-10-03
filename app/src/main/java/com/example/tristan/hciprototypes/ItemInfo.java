@@ -2,6 +2,7 @@ package com.example.tristan.hciprototypes;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 /**
  * Created by Tristan on 11/09/2017.
@@ -14,6 +15,16 @@ public class ItemInfo extends BaseAppActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item_info);
 
+        String[] names = getResources().getStringArray(R.array.names);
+        String[] desc = getResources().getStringArray(R.array.large_desc);
+
+        int num = getIntent().getIntExtra("item_num", 0);
+
+        TextView textView = (TextView)findViewById(R.id.info_title);
+        textView.setText(names[num]);
+
+        textView = (TextView)findViewById(R.id.info_text);
+        textView.setText(desc[num]);
 
     }
 }
