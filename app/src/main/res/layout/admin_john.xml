@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ja_map"
-            android:src="@drawable/evisitor_maps_museum0216"
+            android:src="@drawable/buildingvmap"
             android:visibility="gone"/>
 
         <ScrollView
